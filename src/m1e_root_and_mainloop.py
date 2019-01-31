@@ -18,6 +18,7 @@ def main():
     # Tk is a tkinter object
     root = tkinter.Tk() # only create one Tk object, multiple windows can be created with one Tk object
     root.mainloop()
+    # code never reaches here while window is open
 
     print('Done with the Event Loop')  # Note when this line runs.
 
